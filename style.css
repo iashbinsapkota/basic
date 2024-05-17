@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  /* Specify fallback font */
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  /* Light background color */
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  /* Dark header background */
+  color: #fff;
+  /* White text color */
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 1.2em;
+}
+
+nav {
+  display: flex;
+  /* Flexbox for horizontal navigation */
+  justify-content: space-between;
+  /* Space items evenly */
+  padding: 10px 0;
+  /* Add some top and bottom padding */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  /* Display navigation items inline */
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  /* Inherit color from parent */
+  font-weight: bold;
+  /* Bold navigation links */
+}
+
+nav a:hover {
+  color: #ddd;
+  /* Change color on hover */
+  transition: color 0.3s ease-in-out;
+  /* Smooth transition */
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+  /* Consistent margin between sections */
+  border-radius: 5px;
+  /* Add subtle rounded corners */
+  background-color: #fff;
+  /* White background for sections */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for sections */
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.5;
+  /* Improve readability with line-height */
+}
+
+/* Skills Section Styles */
+.skills-list {
+  padding: 0;
+  margin: 0;
+}
+
+.skills-list li {
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  /* Margin for spacing */
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #ddd;
+  /* Light background for skills */
+}
+
+/* Project Section Styles */
+.project-card {
+  display: flex;
+  /* Flexbox for card layout */
+  flex-wrap: wrap;
+  /* Wrap content if needed */
+  margin-bottom: 20px;
+}
+
+.project-card img {
+  width: 40%;
+  /* Adjust image width as needed */
+  margin-right: 20px;
+  /* Space between image and content */
+}
+
+.project-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #333;
+  /* Darker color for links */
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  color: #000;
+  /* Even darker color on hover */
+}
+
+/* Contact Section Styles */
+.contact-info {
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info li {
+  margin-bottom: 5px;
+}
+
+.contact-info a {
+  color: inherit;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
